@@ -1,0 +1,265 @@
+﻿@import "common.css";
+
+/*HEADER START*/
+.header{
+margin-right: auto;
+margin-left: auto;
+padding-left: 45%;
+padding-right: 15px;
+padding-top: 5px;
+height: 65px;
+display: block;
+}
+.logo-bg-header{
+
+padding-top: 2.5px;
+padding-left: 7%;
+height: 40px;
+background: -webkit-gradient(linear,left top,right top,color-stop(0.5, #dbc553),color-stop(0.5, #006d46)); /*tô 2 màu cho 1 thanh*/
+}
+.search{
+background-color: rgba(255,255,255,.3);
+padding: 6px;
+border: none;
+height: 35px;
+
+}
+::-webkit-input-placeholder {
+color: #7F7F7F;                        /*đặt lại màu cho textplaceholder*/
+display: inline-block;
+}
+.icon{
+width: 35px;
+color: #fff; 
+font-size:17px;
+text-align: center;
+margin-left: px;
+}
+#logo{
+margin-left: 0;
+margin-top: 0;
+position: absolute;
+top: 30px;
+left: 45%;
+height: 120px;
+}
+.logo-bg-header .right{
+        float: right;
+        width:20%;
+}
+.logo-bg-header a{
+        margin-left: 10px; 
+}
+.logo-bg-header a:hover{
+        color: #fff;
+}
+.logo-bg-header > ul > li{
+  display: inline-block;
+}
+@media screen and (max-width: 430px) {
+    .header{
+        display: none;
+    }
+    }
+/*HEADER END*/
+
+/*NAVIGATOR START*/
+.navigator{
+min-height: 150px;
+    padding: 2px 0 2px;;
+font-size: 13px;
+background-color: #000000;
+}
+.navigator > ul > li{
+  display: inline-block;
+}
+.mainmenu{
+    text-align: center;
+}
+.icon2{
+    display: none !important;
+}
+.navigator a{
+padding: 12px 5px;
+display: block;
+margin-top: 25px;
+color: #fff;
+}
+.navigator a:hover{
+    color:#FFC90E;
+}
+li.dropdown{
+position: relative;
+}
+
+ul.child{
+display: none;
+position: absolute;
+width: 200px;
+background-color: black;
+padding-left: 0;
+}
+
+li.dropdown:hover .child {
+display: block;
+}
+
+/*NAVIGATOR COMMON END*/
+
+/*MOBILE AND TABLET START*/
+
+/*NAVIGATOR END*/
+
+/*CONTENT START*/
+.topchoice-title-1{
+    font-family: "'UVNLacLongQuan_B',Arial,Helvetica,sans-serif";
+    font-weight: bold;
+    text-align: center;
+    font-size: 3.3em;
+}
+.topchoice-title-2{
+        font-family: "'UVN_HoaTay1',Arial,Helvetica,sans-serif";
+        font-weight: 400;
+        font-size: 6.825em;
+        color: #333333;
+        padding-left: 35%;
+}
+.graph1{
+    min-height: 60px;
+    padding:60px 90px 0px 90px;
+    color: #333333;
+    font-size: 18px;
+}
+.element{
+  box-sizing: border-box;
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    padding:60px 90px 60px 90px;
+
+}
+.element-member{
+    width: 25%;
+    float: left;
+}
+.elm-img{
+     border: 1px #d4d4d4 solid;
+      width: 150px;
+    height: 150px;
+    margin-left: 25px;
+    padding:7px;
+    border-radius:20%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+.elm-graph{
+    padding: 7px 15px 15px 7px;
+}
+/*CONTENT END*/
+
+/*FOOTER START*/
+.email-footer{
+background-color: #DBC553;
+width: 100%;
+min-height: 150px;
+}
+.footer-title{
+text-align: center;
+padding-top: 15px;
+color: #fff;
+font-family: "'UVNLacLongQuan_B',Arial,Helvetica,sans-serif";
+line-height: 1.5;
+font-size: 24px;
+    letter-spacing: 1px;
+}
+.txtemail{
+    border-style: solid;
+    border-color: #fff;
+   width: 30%;
+   height: 40px;
+    margin-left: 35%;
+    -moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+.footer-content{
+ min-height: 300px;
+ background-color: #11181F;
+ box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+   padding:60px 90px 60px 90px;
+
+}
+.footer-member{
+    width: 33.3333%;
+}
+.footer-member > ul > li{
+  display: block;
+  list-style: square;
+}
+.socialmedia{
+    text-align: center;
+     height: 50px;
+     margin: 0;
+     padding: 0;
+}
+.socialmedia > ul > li{
+    margin-left: 50px;
+  display: inline-block;
+}
+/*FOOTER END*/
+
+/*MOBILE FIRST START*/
+@media screen and (max-width: 768px) {
+.mainmenu{
+  float: none;
+  width: 100%;
+}
+.icon2{
+
+font-size: 30px;
+  display: block !important;
+  position: absolute;
+  right: 0;
+}
+.navigator ul{
+  display: none;
+}
+div.nav-logo{
+  position: relative;
+  float: none;
+}
+
+.navigator > ul > li{
+  display: block;
+}
+ul.child{
+  position: relative;
+}
+.navigator > ul > li:hover > ul li{
+          display: block;
+        }
+ul.child{
+          position: relative;
+}
+ul.child li{
+          display: none;
+        }
+#account{
+ display: none;
+}
+.mainmenu ul{
+    background-color: black;
+}
+
+.element-member{
+    width: 100%;
+  }
+  .footer-member{
+    width: 100%;
+}
+/*NAVIGATOR MOBILE END*/
+}
+/*CUSTOM CSS MOBILE START*/
+/*CUSTOM CSS MOBILE END*/

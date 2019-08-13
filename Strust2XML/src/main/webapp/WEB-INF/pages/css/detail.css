@@ -1,0 +1,37 @@
+﻿<style>
+      /*reset CSS start*/
+      *{
+        padding:0;
+        margin:0;
+        box-sizing: border-box;      }
+      /*reset CSS end*/
+      /*custom CSS start*/
+      .left{
+        float:left;
+        width:70%;
+      }
+      .right{
+        float:right;
+        width:30%;
+      }
+      .clear{
+        clear:both;
+      }
+      body{
+       
+      }
+    
+     /*mobile first*/
+      @media screen and (max-width:760px){
+       .left{
+          width:100%;
+        }
+        .right{
+          width:100%;
+        }
+      }
+      @media screen and (min-width:600px){
+       
+      }
+       /*custom CSS end*/
+    </style>

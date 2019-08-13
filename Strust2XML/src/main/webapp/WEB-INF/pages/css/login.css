@@ -1,0 +1,42 @@
+ #bg{
+        width:100%;
+        background-image: url(//annam-gourmet.com/wp-content/uploads/2014/04/recipe-01.jpg);
+
+        height:400px;
+        padding-top: 80px;
+        padding-left:20px;
+        margin-top:0px;
+      }
+      .login-a{
+        margin-left:155px;
+        color:#FFFF;
+        text-decoration: none;
+      }
+      #login{
+        position:relative;
+        background-color: rgba(0,0,0,.7);
+        width:400px;
+        height:300px;
+        border-radius:9px;
+        margin: 0 auto;
+      }
+      .login-h1{
+        font-family: "copperplate_becker_medregular" !important;
+        color:#DBC553;
+        margin-top: 20px;
+        padding-top: 70px;
+        text-align:center;
+      }
+      .login-form{
+        margin-left: 50px;
+      }
+      #submit{
+        background: #dbc553;
+        margin-top: 40px;
+        margin-left: 120px;
+      }
+      .login-b{
+        font-size: 15px;
+        font-weight: 700;
+        color: #FFFF;
+      }

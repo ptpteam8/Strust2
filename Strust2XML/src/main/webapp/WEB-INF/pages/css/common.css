@@ -1,0 +1,57 @@
+    <style>
+      /*reset CSS start*/
+     
+      ul{
+        list-style-type: none;
+      }
+      a{
+            color: #cfb985;
+        text-decoration: none;
+      }
+    }
+      /*reset CSS end*/
+      /*custom CSS start*/
+      .left{
+        float: left;
+        width:60%;
+      }
+      .right{
+        float: right;
+        width:40%;
+      }
+      .clear{
+        clear:both;
+      }
+      body{
+        box-sizing: border-box;
+        padding: 0px;
+        margin : 0px;
+        box-sizing: border-box;
+        font-size: 14px;
+        background: #f9f9f9 url(images/bg-body.jpg) repeat;
+        font-family: Tahoma,Arial,Helvetica,sans-serif;
+      }
+    span{
+      line-height: 20px;
+      color: #a4a9ad;
+    }
+    ul > li{
+    list-style: none;
+  padding-left: 0;
+    font-weight: 700;
+    color: #ffffff;
+    padding-bottom: 19px;
+  }
+     /*mobile first*/
+      @media screen and (max-width:430px){
+         .left, .right{
+          float: none;
+          width: 100%;
+        }
+       
+      }
+      @media screen and (min-width:600px){
+       
+      }
+       /*custom CSS end*/
+    </style>
