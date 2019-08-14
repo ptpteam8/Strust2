@@ -1,0 +1,12 @@
+package src.main.java.action;
+
+public class UserInfoAction {
+	private static final long serialVersionUID = 7299264265184515893L;
+    
+    
+    @Override
+    public String execute() {
+     
+        return "userInfoPage";
+    }
+}

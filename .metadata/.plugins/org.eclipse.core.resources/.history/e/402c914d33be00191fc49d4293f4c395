@@ -1,0 +1,5 @@
+package lydia.strust2xml.action;
+
+public class Login {
+
+}

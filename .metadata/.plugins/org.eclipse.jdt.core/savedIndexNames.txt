@@ -1,0 +1,19 @@
+INDEX VERSION 1.127+D:\LearnCode\Strust2\.metadata\.plugins\org.eclipse.jdt.core
+2745810793.index
+1573584823.index
+98208954.index
+762942467.index
+3572636785.index
+1425542187.index
+4131844494.index
+2081182260.index
+3242859362.index
+3309358835.index
+893025363.index
+834221405.index
+2497024719.index
+3448235708.index
+3121905110.index
+461835444.index
+901673549.index
+1734703654.index

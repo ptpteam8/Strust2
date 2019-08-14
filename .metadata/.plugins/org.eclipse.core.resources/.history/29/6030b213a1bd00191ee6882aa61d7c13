@@ -1,0 +1,182 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>ANNAMfoodhomepage</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<link rel="stylesheet" href="css/homepage.css" />
+<link rel="stylesheet" href="css/login.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<h2>Struts 2 - Login Application</h2>
+<!--HEADER START-->
+		<header class="header">
+			<div class="right">
+				<span>Tìm kiếm <a href="#">Cửa hàng</a> hay <a href="#">Café</a> gần nhất</span>
+				<img src="https://annam-gourmet.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png">
+			</div>
+
+       </header>
+       <div class="logo-bg-header">
+       	    	<input type="search" class="search" placeholder="Tìm kiếm ở đây" autocomplete="off">
+       	    	<button class="icon search" type="submit">
+       	    		<span class="fa fa-search" style="color:#fff"></span>
+       	    	</button>
+       	    	<img src="http://annam-gourmet.com/wp-content/uploads/2016/06/logo-1.png" id="logo">
+	   	    	<ul class= "right" id="account">
+	                <li><a href="#">Login</a></li>
+	                <li><a href="#">Register</a></li>
+	            </ul>
+	  <div class="clear"></div>
+		</div>
+       </div>
+	<!--HEADER END-->
+
+	<!--NAVIGATOR START-->
+		<div class="navigator">
+		  <div class="logo left">
+	        <a href="javascript:void(0);" class="icon2" onclick="myFunction()">
+	          <i class="fa fa-bars"></i>
+	        </a>
+	        <div class="clear"></div>
+	      </div>
+
+	      <ul class="mainmenu">
+	        <li  class="dropdown"><a href="#">VỀ CHÚNG TÔI</a>
+        		<ul class="child">
+		            <li><a href="#">LỊCH SỬ HÌNH THÀNH</a></li>
+		            <li><a href="#">GIÁ TRỊ CỐT LÕI</a></li>
+		            <li><a href="#">CỬA HÀNG</a></li>
+		            <li><a href="#">NHỮNG THƯƠNG HIỆU TỐT NHẤT</a></li>
+		            <li><a href="#">CƠ HỘI NGHỀ NGHIỆP</a></li>
+		            <li><a href="#">CÂU HỎI THƯỜNG GẶP</a></li>
+         	 	</ul>
+        	</li>
+	        <li class="dropdown"><a href="#">SẢN PHẨM</a>
+				<ul class="child">
+		            <li><a href="#">SẢN PHẨM THƯƠNG MẠI</a></li>
+		            <li><a href="#">DỊCH VỤ MỞ RỘNG</a></li>
+		            <li><a href="#">SẢN PHẨM TỪ AN NAM FOODS</a></li>
+	          	</ul>
+	        </li>
+	        <li  class="dropdown"><a href="#">DỊCH VỤ</a>
+	        	<ul class="child">
+		            <li><a href="#">DỊCH VỤ ĂN UỐNG </a></li>
+		            <li><a href="#">DỊCH VỤ KHÁC</a></li>
+		       	</ul>
+	        </li>
+	        <li  class="dropdown"><a href="#">AN NAM FOODS</a></li>
+	        <li><a href="#">TRUYỀN THÔNG</a>
+	        	<ul class="child">
+		            <li><a href="#">HÌNH ẢNH & VIDEO </a></li>
+		            <li><a href="#">TIN TỨC</a></li>
+		            <li><a href="#">SỰ KIỆN </a></li>
+		            <li><a href="#">TIN ĐIỆN TỬ</a></li>
+		       	</ul>
+	        </li>
+	        <li  class="dropdown"><a href="#">THÀNH VIÊN</a>
+	        	<ul class="child">
+		            <li><a href="#">THÔNG TIN TÀI KHOẢN </a></li>
+		            <li><a href="#">THÔNG TIN KHUYẾN MẠI</a></li>
+		       	</ul>
+	        </li>
+	        <li><a href="#">LIÊN HỆ</a>
+	        </li>
+      </ul>
+      <script>
+      	 function myFunction() {
+      	 	
+    var x = document.getElementsByTagName("ul");
+    for(var i = 0; i < x.length; i++){
+      var element = x[i];
+      if(element.style.display == "block"){
+        element.style.display = "none";
+      } else {
+        element.style.display = "block";
+      }
+    }
+  }
+
+      </script>
+  </div>
+	     <!--NAVIGATOR END-->
+     
+	<!--CONTENT START-->
+		 <div id="bg">
+      <div id="login">
+        <h1 class="login-h1"> ĐĂNG NHẬP</h1>
+        <form action="/login" method="post" class="login-form">
+          <table>
+            <tr>
+              <td><b class="login-b">Tên người dùng:</b></td>
+              <td><s:textfield name="username" key="label.username" size="20" /></td>
+            </tr>
+            <tr>
+              <td><b class="login-b">Mật khẩu:</b></td>
+              <td><input type="password" id="password"></td>
+            </tr>
+          </table>
+          <button id="submit">Đăng nhập</button>
+        </form>
+        <a href="" class="login-a">Quên mật khẩu?</a>
+      </div>
+    </div>
+	<!--CONTENT END-->
+
+	<!--FOOTER END-->
+	 	<footer class="footer">
+	 		<div class="email-footer">
+	 			<h2 class="footer-title">SIGN UP TO RECEIVE OUR NEWSLETTER</h2>
+	 			<input type="text" class="txtemail" placeholder="Nhập địa chỉ email" autocomplete="off">
+	 		</div>
+	 		<div class="footer-content">
+		  	<div class="footer-member">
+		  		<b style="color: #fff">VỀ CHÚNG TÔI</b>
+		  		<ul>
+		            <li><a href="#">LỊCH SỬ HÌNH THÀNH</a></li>
+		            <li><a href="#">GIÁ TRỊ CỐT LÕI</a></li>
+		            <li><a href="#">CỬA HÀNG</a></li>
+		            <li><a href="#">NHỮNG THƯƠNG HIỆU TỐT NHẤT</a></li>
+		            <li><a href="#">CƠ HỘI NGHỀ NGHIỆP</a></li>
+		            <li><a href="#">CÂU HỎI THƯỜNG GẶP</a></li>
+		       	</ul>
+		  	</div>
+		  	<div class="footer-member">
+		  		<b style="color: #fff">SẢN PHẨM</b>
+		  		<ul>
+		           <li><a href="#">SẢN PHẨM THƯƠNG MẠI</a></li>
+		            <li><a href="#">DỊCH VỤ MỞ RỘNG</a></li>
+		            <li><a href="#">SẢN PHẨM TỪ AN NAM FOODS</a></li>
+		       	</ul>
+		  	</div>
+		  	<div class="footer-member">
+		  		<b style="color: #fff">TRUYỀN THÔNG</b>
+		  		<ul>
+		            <li><a href="#">HÌNH ẢNH & VIDEO </a></li>
+		            <li><a href="#">TIN TỨC</a></li>
+		            <li><a href="#">SỰ KIỆN </a></li>
+		            <li><a href="#">TIN ĐIỆN TỬ</a></li>
+		       	</ul>
+		  	</div>
+		  </div>
+		  <div class="socialmedia">
+
+		  	<ul> Follow us:
+		  		 <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+		            <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
+		            <li><a href="#"><span class="fa fa-youtube"></span></span> </a></li>
+		            <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+		  	</ul>
+		  	<p>©2016 Annam Gourmet Market. All Rights Reserved.</p>
+		  </div>
+		  
+	 	 	</footer>
+	<!--FOOTER END-->
+<br>
+Username: admin, password: admin123
+ 
+</body>
+</html>
