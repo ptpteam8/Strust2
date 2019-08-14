@@ -4374,3 +4374,15 @@ java.lang.ClassCastException: org.eclipse.ui.ide.FileStoreEditorInput cannot be 
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648) [org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar:na]
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603) [org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar:na]
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465) [org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar:na]
+2019-08-14 11:48:43,457 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-08-14 11:48:43,465 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-08-14 11:48:43,466 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-08-14 11:48:43,471 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LearnCode\Strust2\Strust2XML\src\test\resources
+2019-08-14 11:49:03,403 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-08-14 11:49:03,413 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-08-14 11:49:03,414 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-08-14 11:49:03,421 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LearnCode\Strust2\Strust2XML\src\test\resources
+2019-08-14 11:50:43,583 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-08-14 11:50:43,591 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-08-14 11:50:43,592 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-08-14 11:50:43,600 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LearnCode\Strust2\Strust2XML\src\test\resources
